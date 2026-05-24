@@ -242,13 +242,13 @@ export default function Home() {
           </div>
           <div className="space-y-5 text-base leading-8 text-zinc-300">
             <p>
-              I am studying Data Analytics and Business Administration while working in operations leadership at Amazon. That background gives me a practical view of how data, people, process, and execution connect.
+              I am an operations leader and MBA candidate in Business Analytics with experience improving fulfillment performance, workforce execution, safety, quality, and productivity in Amazon operations. My work has centered on leading daily outbound execution, supporting high-volume fulfillment, and using performance data to identify gaps before they become larger operational problems.
             </p>
             <p>
-              My experience has been built in environments where safety, quality, productivity, staffing, and communication matter at the same time. That shapes how I approach analytics and AI: the output has to help someone make a better decision, remove a barrier, or improve performance.
+              My background connects frontline leadership with data-driven decision-making. I have supported 700K–800K+ monthly units, directed labor flow for 150+ associates, improved safety compliance, reduced defects, increased pack rate performance, and helped develop frontline leadership talent. That experience shapes how I approach analytics and AI: the output has to be useful, practical, and tied to measurable business results.
             </p>
             <p>
-              My portfolio focuses on AI learning systems, career development tools, innovation strategy, and practical business problem-solving. Each project is designed to show how I think through a problem, structure the work, and connect the final output to business value.
+              This portfolio reflects the direction I am building toward: business analytics, operations analytics, AI-enabled process improvement, and product-focused problem-solving. The projects show how I think through problems, structure solutions, use technical tools, and connect the final output to execution, decision-making, and business value.
             </p>
           </div>
         </div>
@@ -417,10 +417,6 @@ export default function Home() {
               <div className="rounded-3xl border border-zinc-800 bg-zinc-900/70 p-6">
                 <h3 className="text-xl font-semibold text-white">MBA, Business Analytics</h3>
                 <p className="mt-2 text-sm text-zinc-400">Southern New Hampshire University | Expected May 2027</p>
-              </div>
-              <div className="rounded-3xl border border-zinc-800 bg-zinc-900/70 p-6">
-                <h3 className="text-xl font-semibold text-white">BS, Data Analytics & Business Administration</h3>
-                <p className="mt-2 text-sm text-zinc-400">Concentration: Project Management</p>
               </div>
             </div>
           </div>
