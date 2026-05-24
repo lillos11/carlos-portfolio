@@ -17,6 +17,7 @@ const projects = [
     ],
     value:
       "Helps learners move beyond memorizing syntax by building real projects, practicing problem-solving, receiving guided feedback, and developing a portfolio that supports job readiness.",
+    liveUrl: "https://devforge-zeta-blush.vercel.app/#/command-center",
   },
   {
     title: "Career Central AI Platform",
@@ -29,6 +30,7 @@ const projects = [
     tools: ["React", "AI Workflows", "Product Strategy", "UX Planning"],
     value:
       "Creates one system for career growth, academic progress, and professional development while helping users turn scattered goals into structured execution.",
+    liveUrl: "#contact",
   },
   {
     title: "Amazon Interview Preparation App",
@@ -41,6 +43,7 @@ const projects = [
     tools: ["Python", "OpenAI Codex", "Prompt Engineering", "AI Evaluation"],
     value:
       "Helps candidates build sharper interview responses with better structure, stronger proof, and clearer business impact.",
+    liveUrl: "https://interview-bar-raiser.space/",
   },
   {
     title: "IoT Innovation Strategy for Connected Vehicles",
@@ -53,6 +56,7 @@ const projects = [
     tools: ["RWW Framework", "Stage-Gate", "Agile", "Lean", "Business Strategy"],
     value:
       "Connects innovation planning to market pressure, organizational capability, stakeholder alignment, and execution discipline.",
+    liveUrl: "#contact",
   },
 ];
 
@@ -184,6 +188,14 @@ export default function Home() {
               className="rounded-2xl border border-zinc-700 bg-zinc-900 px-5 py-3 font-semibold text-zinc-100 transition hover:bg-zinc-800"
             >
               Contact Me
+            </a>
+            <a
+              href="https://devforge-zeta-blush.vercel.app/#/command-center"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-2xl border border-zinc-700 bg-zinc-900 px-5 py-3 font-semibold text-zinc-100 transition hover:bg-zinc-800"
+            >
+              Launch DevForge
             </a>
           </div>
 
@@ -331,6 +343,14 @@ export default function Home() {
                     <p><span className="font-semibold text-zinc-100">Problem:</span> {project.problem}</p>
                     <p><span className="font-semibold text-zinc-100">Solution:</span> {project.solution}</p>
                     <p><span className="font-semibold text-zinc-100">Business value:</span> {project.value}</p>
+                    <a
+                      href={project.liveUrl}
+                      target={project.liveUrl.startsWith("http") ? "_blank" : undefined}
+                      rel={project.liveUrl.startsWith("http") ? "noopener noreferrer" : undefined}
+                      className="inline-flex rounded-2xl border border-zinc-700 bg-zinc-900 px-4 py-2 font-semibold text-zinc-100 transition hover:bg-zinc-800"
+                    >
+                      View Project
+                    </a>
                   </div>
                 </div>
               </article>
@@ -456,6 +476,9 @@ export default function Home() {
             </a>
             <a href="#projects" className="rounded-2xl border border-zinc-700 bg-zinc-950 px-5 py-3 font-semibold text-zinc-100 transition hover:bg-zinc-800">
               View Projects
+            </a>
+            <a href="https://devforge-zeta-blush.vercel.app/#/command-center" target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-zinc-700 bg-zinc-950 px-5 py-3 font-semibold text-zinc-100 transition hover:bg-zinc-800">
+              Launch DevForge
             </a>
           </div>
         </div>
