@@ -242,7 +242,7 @@ export default function Home() {
           </div>
           <div className="space-y-5 text-base leading-8 text-zinc-300">
             <p>
-              I am an operations leader and MBA candidate in Business Analytics with experience improving fulfillment performance, workforce execution, safety, quality, and productivity in Amazon operations. My work has centered on leading daily outbound execution, supporting high-volume fulfillment, and using performance data to identify gaps before they become larger operational problems.
+              I am an operations leader and MBA candidate in Business Analytics with experience improving fulfillment performance, workforce execution, safety, quality, and productivity in Amazon operations. My work centers on leading daily outbound execution, supporting high-volume fulfillment, and using performance data to identify gaps before they turn into larger operational problems.
             </p>
             <p>
               My background connects frontline leadership with data-driven decision-making. I have supported 700K–800K+ monthly units, directed labor flow for 150+ associates, improved safety compliance, reduced defects, increased pack rate performance, and helped develop frontline leadership talent. That experience shapes how I approach analytics and AI: the output has to be useful, practical, and tied to measurable business results.
